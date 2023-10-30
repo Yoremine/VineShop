@@ -1,0 +1,18 @@
+@import "/wonder/fonts.css";
+@import "/styles/navigation.css";
+@import "/styles/secondtext.css";
+@import "/styles/tscr.css";
+@import "/styles/information.css";
+@import "/styles/form.css";
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 13px;
+}
+
+a:hover {
+    cursor: pointer;
+    opacity: 95%;
+}
