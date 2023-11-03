@@ -148,3 +148,53 @@
     cursor: pointer;
     opacity: 90%;
 }
+
+@media screen and (max-width: 750px) {
+    .form__container {
+        margin: 0 0;
+        max-width: 50%;
+        height: 538px;
+        left: 205px;
+        display: flex;
+    }
+}
+/*@media screen and (max-width: 750px) {
+    .form_h2{
+        ;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .form__text{
+    top: -240px;
+    width: 50%;
+    height: 144px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .form__input-container{
+       height: ;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .form__input1{
+        width: 91%;
+        margin: 10px 763px 30px auto;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .form__button{
+        width: 91%;
+    }
+}  */
