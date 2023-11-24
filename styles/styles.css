@@ -1,9 +1,9 @@
 @import "/wonder/fonts.css";
 @import "/styles/navigation.css";
 @import "/styles/secondtext.css";
-@import "/styles/tscr.css";/*
+@import "/styles/tscr.css";
 @import "/styles/information.css";
-@import "/styles/form.css";*/
+@import "/styles/form.css";
 @import "./cards.css";
 
 a {
