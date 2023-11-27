@@ -105,7 +105,7 @@
         </template>
     </div>
 </section>
-<section class="form__page">
+<form class="form__page" novalidate>
     <div class="form__container">
         <h2 class="form_h2">Запись на дегустацию</h2>
         <div class="form__img_container">
@@ -117,14 +117,14 @@
             Feugiat enim tortor in hac id imperdiet adipiscing.
             Pellentesque nisi, mi sit non sit sed fermentum. </p>
         <div class="form__input-container">
-            <input class="form__input" id="form_name" placeholder="Имя">
-            <input class="form__input" id="form_phone" placeholder="Телефон">
+            <input class="form__input" type="text" pattern="[a-zA-z]+$" id="form_name" placeholder="Имя" minlength="2" maxlength="32" required>
+            <input class="form__input" type="number" id="form_phone" placeholder="Телефон" required>
 
         </div>
-        <input class="form__input1" id="form_street" placeholder="Бутик на Невском 103">
+        <input class="form__input1" id="form_street" type="text" placeholder="Бутик на Невском 103" required>
         <button class="form__button" type="button">записаться</button>
     </div>
-</section>
+</form>
 <footer class="information">
     <table class="information_container">
         <tr class="information__tr1">

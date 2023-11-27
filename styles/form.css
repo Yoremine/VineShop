@@ -104,6 +104,14 @@
     outline: none;
 }
 
+.form__input:invalid {
+    border-bottom: 1px solid red;
+}
+
+.form__input:valid {
+    border-bottom: 1px solid lawngreen;
+}
+
 .form__input1 {
     margin: 0 auto;
     position: relative;
