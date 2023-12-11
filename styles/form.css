@@ -85,8 +85,22 @@
     width: 540px;
 }
 
+.inp{
+    color:red;
+    top: -129px;
+    flex-direction: column;
+    max-width: 259px;
+}
+
+.err{
+    color:red;
+    top: -129px;
+    flex-direction: column;
+    max-width: 259px;
+}
+
 .form__input {
-    margin: 0 0;
+    margin: 0 0 10px 0;
     width: 255px;
     height: 30px;
     font-family: 'Montserrat';
