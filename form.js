@@ -9,13 +9,14 @@ console.log(`Улица = ${profileStreet.placeholder}`);
 
 let buttonProfile = document.querySelector('.form__button');
 
-function showClick() {
-<<<<<<< Updated upstream
-  console.log(`Имя = ${profileName.value}\nТелефон = ${profilePhone.value}\nУлица = ${profileStreet.value}`);
+var nameErr =  true;
+var mobileErr =  true;
+
+function printError(elemId, hintMsg) {
+  document.getElementById(elemId).innerHTML = hintMsg;
 }
 
-buttonProfile.addEventListener('click', showClick);
-=======
+function showClick() {
   nameCheck();
   var regexPhone = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
   if(regexPhone.test(profilePhone.value) === false) {
@@ -100,4 +101,3 @@ profileName.addEventListener('input',nameCheck);
 profilePhone.addEventListener('input',phoneCheck);
 profilePhone.addEventListener('input',phoneStandart);
 buttonProfile.addEventListener('click', showClick);
->>>>>>> Stashed changes

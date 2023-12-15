@@ -157,6 +157,9 @@
     opacity: 90%;
 }
 
+.error{
+    color:red;
+}
 @media screen and (max-width: 750px) {
     .form__container {
         margin: 0 0;
